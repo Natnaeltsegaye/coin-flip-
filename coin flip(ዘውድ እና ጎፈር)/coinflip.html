@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coinflip</title>
+    <link rel="stylesheet" href="coinflip.css" >
+    
+</head>
+<body>
+    <div class="container">
+        <img class="backgroundimg " src="img.jpg" >
+        <div class="coin" id='coin'>
+            <div class="head">
+                <img src="heads.jpg" alt="" srcset="">
+            </div>
+            <div class="tails">
+                <img src="tails.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="stats">
+            <p id="heads-cout">Heads:0</p>
+            <p id="tails-cout">Tails:0</p>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">Flip coin</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <p><span id="status"></span></p>
+      </div>
+    </div>
+    <script src="coinflip.js" defer></script>
+
+</body>
+</html> 
